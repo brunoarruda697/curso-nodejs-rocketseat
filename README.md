@@ -24,3 +24,5 @@ criado uma constante aonde fica a importação do express, e depois em outra con
 
 o comando listen abre uma porta para rodar o servidor do express
 
+*Criando a primeira rota
+usando a constante que inicializa .get e passando como primeiro parametro '/' é a rota raiz, e o segundo parametro é uma função que recebe req e res, req é a requisição e nela terá todas informações possiveis dessa requisição, no req você pode pegar parametros, corpo da requisição, cabeçalho da requisição, usuário que está fazendo a requisição, autenticação, todas as informações da requisição podem ser acessadas pelo Objeto req. O res tem haver com a resposta que o servidor dá para a requisição, dentro do Objeto res terá todas as informações que devolveremos para a requisição.
