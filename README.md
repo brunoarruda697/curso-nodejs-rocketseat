@@ -30,4 +30,24 @@ usando a constante que inicializa .get e passando como primeiro parametro '/' é
 *Utilizando Nodemon
 *npm install -D nodemon (-D é a mesma coisa que --save-dev que é para ser uma dependencia apenas para desenvolvimento)
 
-a melhor forma de utilizar o nodemon é criando um script para ele no package.json
+a melhor forma de utilizar o nodemon é criando um script para ele no package.json adicionando o script dev, assim utilizando npm run dev irá iniciar o arquivo principal que foi definido no package.json
+
+*Docker
+é um software que nos permite fazer a CONTEINERIZAÇÃO de recursos, softwares ou de qualquer tipo de aplicação da nossa máquina, benefício de usar: sobe uma V.M e nela podemos instalar o que quisermos, atualizar e deletarmos depois sem sobrar resquícios da instalação que muitas vezes se feitas no nosso S.O podem sobrar alguns resquícios da instalação
+
+*Instalando MongoDB
+*docker pull mongo
+*docker run --name mongodb -p 27017:27017 -d mongo
+*docker ps
+*docker ps -a (mostra todas as imagens docker)
+*docker start (nome da imagem)
+
+a porta padrão do mongodb é 27017,
+
+*Robo 3T
+
+*Instalando o Mongoose
+Mongoose é um ORM (Object Relational Mapping) de bancos não relacionais com mongodb, ORM encapsula a lógica das operações dos bancos de dados através do código, ao invés de utilizarmos querys, utilizaremos apenas códigos javascript para fazer as querys ou seja, insert, delete, update, etc... ORM transforma as tabelas do banco de dados em Objetos para usarmos no javascript
+
+*como conectar ao DB =
+mongoose.connect('nomeDaImagemDocker://nomeDaUrlColocadaNoRobo3T:portaDaImagemDocker/nomeDoSchemaDoDB', { useNewUrlParser: true});
