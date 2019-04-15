@@ -51,3 +51,11 @@ Mongoose é um ORM (Object Relational Mapping) de bancos não relacionais com mo
 
 *como conectar ao DB =
 mongoose.connect('nomeDaImagemDocker://nomeDaUrlColocadaNoRobo3T:portaDaImagemDocker/nomeDoSchemaDoDB', { useNewUrlParser: true});
+
+**Schema = são os campos que um produto pode ter e que tipos de valores estes campos vão salvar
+
+*Criando model de produto
+cria um arquivo js aonde vc importa o mongoose, faz uma const para armazenar um novo Schema, que será um Objeto com Objetos dentro e seus tipos, depois com o comando mongoose.model('Nome', constanteCriadaAcima);
+
+*npm install require-dir
+o require dir faz os require pra você, vc precisa passar apenas até a pasta aonde está o arquivo js
