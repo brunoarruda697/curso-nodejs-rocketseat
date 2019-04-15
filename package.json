@@ -4,7 +4,8 @@
   "description": "Segundo curso de nodejs no site da Rocketseat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/brunoarruda697/curso-nodejs-rocketseat/issues"
   },
-  "homepage": "https://github.com/brunoarruda697/curso-nodejs-rocketseat#readme"
+  "homepage": "https://github.com/brunoarruda697/curso-nodejs-rocketseat#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
 }
