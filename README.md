@@ -61,6 +61,6 @@ cria um arquivo js aonde vc importa o mongoose, faz uma const para armazenar um 
 o require dir faz os require pra você, vc precisa passar apenas até a pasta aonde está o arquivo js
 
 *Reestruturação de arquivos
-app.use('/'), o use é como se fosse um coringa pois ele vai receber todo tipo de requisição, get/put/post/delete
+app.use('/'), o use é como se fosse um coringa pois ele vai receber todo tipo de requisição, algumas delas como get/put/post/delete
 
 estrutura MVC (Model Vue Controler)
