@@ -64,3 +64,6 @@ o require dir faz os require pra você, vc precisa passar apenas até a pasta ao
 app.use('/'), o use é como se fosse um coringa pois ele vai receber todo tipo de requisição, algumas delas como get/put/post/delete
 
 estrutura MVC (Model Vue Controler)
+
+*Json é uma estrutura de dados muito utilizada em API Rest, é uma forma facil de ler e alterar dados, é bem parecido com um objeto JSON(JavaScript Object Notation)
+
