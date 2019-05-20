@@ -20,5 +20,12 @@
   "homepage": "https://github.com/brunoarruda697/curso-nodejs-rocketseat#readme",
   "devDependencies": {
     "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "mongoose": "^5.5.9",
+    "mongoose-paginate": "^5.0.3",
+    "require-dir": "^1.2.0"
   }
 }

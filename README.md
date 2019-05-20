@@ -27,6 +27,9 @@ o comando listen abre uma porta para rodar o servidor do express
 *Criando a primeira rota
 usando a constante que inicializa .get e passando como primeiro parametro '/' é a rota raiz, e o segundo parametro é uma função que recebe req e res, req é a requisição e nela terá todas informações possiveis dessa requisição, no req você pode pegar parametros, corpo da requisição, cabeçalho da requisição, usuário que está fazendo a requisição, autenticação, todas as informações da requisição podem ser acessadas pelo Objeto req. O res tem haver com a resposta que o servidor dá para a requisição, dentro do Objeto res terá todas as informações que devolveremos para a requisição.
 
+*Install Require-dir
+npm install require-dir
+
 *Utilizando Nodemon
 *npm install -D nodemon (-D é a mesma coisa que --save-dev que é para ser uma dependencia apenas para desenvolvimento)
 
@@ -67,3 +70,10 @@ estrutura MVC (Model Vue Controler)
 
 *Json é uma estrutura de dados muito utilizada em API Rest, é uma forma facil de ler e alterar dados, é bem parecido com um objeto JSON(JavaScript Object Notation)
 
+*Instalação do Insomnia
+sudo snap install insomnia
+
+colocar uma base_url no environment do insomnia facilita muito.
+
+*Instalação do mongoose-paginate
+npm install mongoose-paginate
