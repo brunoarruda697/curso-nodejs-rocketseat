@@ -77,3 +77,10 @@ colocar uma base_url no environment do insomnia facilita muito.
 
 *Instalação do mongoose-paginate
 npm install mongoose-paginate
+
+-paginação do mongoose
+
+*CORS
+Cross-Origin Resource Sharing
+
+npm install cors
